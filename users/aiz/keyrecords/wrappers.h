@@ -142,10 +142,10 @@
 // Qwerty shifted one step right
 // Requires 6 keys on left and right side since I put numbers there
 
-#define _________________GAMING_L1_________________     KC_1,       KC_TAB,     KC_Q,       KC_W,       KC_E,       KC_R
-#define _________________GAMING_L2_________________     KC_2,       KC_LSFT,    KC_A,       KC_S,       KC_D,       KC_F
-#define _________________GAMING_L3_________________     KC_3,       KC_RCTL,    KC_Z,       KC_X,       KC_C,       KC_V
-#define ___GAMING_THUMB_L___     KC_ESC,     KC_SPC,     KC_ENT
+#define _________________GAMING_L1_________________     KC_F1,       KC_TAB,     KC_Q,       KC_W,       KC_E,       KC_R
+#define _________________GAMING_L2_________________     KC_F2,       KC_LSFT,    KC_A,       KC_S,       KC_D,       KC_F
+#define _________________GAMING_L3_________________     KC_F3,       KC_RCTL,    KC_Z,       KC_X,       KC_C,       KC_V
+#define ___GAMING_THUMB_L___     KC_ESC,     KC_SPC,    MO(_NUMBER)
 
 // Arrow keys and default layer keys.
 // Number and function layer accessible with right thumb.
@@ -154,7 +154,7 @@
 #define _________________GAMING_R1_________________     _______,    _______,    KC_UP,      _______,    _______,    GAMING_OFF
 #define _________________GAMING_R2_________________     _______,    KC_LEFT,    KC_DOWN,    KC_RIGHT,   _______,    _______
 #define _________________GAMING_R3_________________     _______,    _______,    _______,    _______,    _______,    _______
-#define ___GAMING_THUMB_R___     KC_ENT, MO(_NUMBER), MO(_FUNCTION)
+#define ___GAMING_THUMB_R___     KC_ENT, GAMING_OFF, MO(_FUNCTION)
 
 // clang-format on
 
